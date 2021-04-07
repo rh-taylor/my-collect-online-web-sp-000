@@ -7,5 +7,5 @@ def my_collect(array)
     upcase_lang << string.upcase
   end
   string.split(", ")
-
+  upcase_lang
 end
