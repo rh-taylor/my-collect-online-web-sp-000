@@ -5,6 +5,6 @@ def my_collect(array)
   while "#{string}".downcase
     upcase_lang << "#{string}".upcase
   end
-  string.split(", ")
+  "#{string}".split(", ")
   upcase_lang
 end
